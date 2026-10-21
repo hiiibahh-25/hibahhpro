@@ -8,9 +8,9 @@
 
 ## 👩‍💻 About Me
 
-Hi, I'm **[Your Name]**.
+Hi, I'm **Hibatullah Hossni Ibrahim Hijazy**.
 
-I am a **[Your Professional Title]** interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
+I am an AI & Automation Developer interested in building AI-powered solutions that solve real-world problems and create meaningful impact.
 
 Through this portfolio, I document the systems and solutions I design and build throughout my AI Automation journey.
 
@@ -25,7 +25,7 @@ Through this portfolio, I document the systems and solutions I design and build 
 
 ### Connect With Me
 
-- 💼 LinkedIn: [Your LinkedIn]
+- 💼 LinkedIn: www.linkedin.com/in/hibatullah-hijazy-57b7a642a
 - 🌐 Portfolio: [Your Portfolio]
 - 📧 Email: [Your Email]
 - 🐙 GitHub: [Your GitHub]
@@ -411,12 +411,12 @@ Future projects, experiments, and AI-powered solutions will be added here as I c
 
 | Area | Progress |
 |---|---|
-| Process & Data | ⬜ |
-| System Building | ⬜ |
-| Quality | ⬜ |
-| Knowledge | ⬜ |
-| Agency | ⬜ |
-| Integration | ⬜ |
+| Process & Data | ✅ |
+| System Building | ✅ |
+| Quality | ✅ |
+| Knowledge | ✅ |
+| Agency | ✅ |
+| Integration | ✅ |
 | Reliability | ⬜ |
 | Solution Engineering | ⬜ |
 
