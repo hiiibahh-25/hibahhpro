@@ -225,10 +225,13 @@ It saves the technical team's time and gives clients a professional experience f
 ## 🔮 Future Improvements
 
 If I continue developing this project, I will:
-- 🚀 **Add sentiment analysis:** detect whether the client is happy or dissatisfied.
-- 🚀 **Automatic follow-ups:** send alerts or messages automatically when information is missing.
-- 🚀 **Zapier Tables for tracking:** store all requests in a table for easy review.
-- 🚀 **CRM integration:** update the customer database automatically.
+
+- Use clear email templates for each path, so the team gets consistent notifications.
+- Add routing paths for other services such as digital marketing and app development.
+- Send an automatic follow-up email to clients when budget or timeline is missing.
+- Log technical failures and send an alert when a workflow step fails.
+- Add a request tracking status (new, under review, followed up) after routing.
+- Measure processing time, extraction accuracy, and routing accuracy.
 
 ---
 
