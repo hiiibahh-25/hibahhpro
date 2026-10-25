@@ -176,7 +176,8 @@ After fixing the path condition (see Challenges), the Needs Review path ran, the
 ## 📸 Evidence
 
 ### Workflow
-![Workflow - Part 1](Screenshots/workflow.png)
+![Workflow - Part 1](Screenshots/workflow1.png)
+![Workflow - Part 1](Screenshots/workflow2.png)
 
 ### Positive Feedback path ran
 ![Positive Feedback path - Part 1](Screenshots/positive-path.png)
