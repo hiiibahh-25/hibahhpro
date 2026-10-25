@@ -261,15 +261,15 @@ A UI that shows a result is not proof of real AI analysis. I verified it by chan
 
 If I continued developing this project, I would:
 
-- Connect and verify a real AI analysis service, with API keys handled securely on the server side.
-- Add browser persistence for the profile if it is not already in place.
+- Add browser persistence (`localStorage`) so the profile survives a page refresh.
+- Test and document the AI unavailable and error states.
 - Improve mobile responsiveness and visual polish.
 
 ---
 
 ## 🔗 Project Links
 
-**Live Demo:** [Link]
+**Live Demo:** [https://screenshot-faithful-layout-lab.lovable.app](https://screenshot-faithful-layout-lab.lovable.app)
 
 **Workflow:** [Link]
 
