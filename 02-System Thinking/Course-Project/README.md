@@ -96,7 +96,7 @@ Relevant Skills · Potential Gaps · Recommended Next Steps
 - Analysis is triggered by one click (**Analyze My Fit**) using the latest saved profile and the selected opportunity.
 - Results are organized automatically into the three result sections.
 - Output validation runs before a result is shown as successful.
-- Profile persistence in the browser (`localStorage`) is an optional enhancement.
+- The saved profile is kept in the browser (`localStorage`), so it persists after a refresh on the same device.
 
 ---
 
@@ -121,8 +121,8 @@ A structured analysis with Relevant Skills, Potential Gaps, and Recommended Next
 | Tool | Purpose |
 |---|---|
 | Lovable | Building the responsive web app from natural-language specs |
-| Application state / `localStorage` (optional) | Holding profile edits, with optional persistence after refresh |
-| AI service (if configured) | Real AI Fit Analysis, with secrets kept out of client-side code |
+| Application state + `localStorage` | Holding profile edits and keeping them after a refresh (same browser and device) |
+| AI service | Generating the AI Fit Analysis, with secrets kept out of client-side code |
 | GitHub | Hosting the project documentation and repository |
 
 ---
@@ -165,11 +165,11 @@ A structured analysis with Relevant Skills, Potential Gaps, and Recommended Next
 ### Test 2: Persistence after page refresh
 **Input:** Save the profile, then refresh the page.
 
-**Expected Result:** Persistence after refresh is optional in this MVP (`localStorage` is an optional enhancement).
+**Expected Result:** After adding `localStorage` persistence, the saved profile is still there after a refresh.
 
-**Actual Result:** The profile page states: "Your profile is kept only for this session." Behavior after refresh has not been confirmed yet.
+**Actual Result:** Before `localStorage` was added (and while the published site was not yet updated), the profile reverted to the fictional sample profile. After adding `localStorage` and clicking Publish → Update, the saved profile stayed after a page refresh.
 
-**Status:** ⏳ To confirm (known limitation: session-only storage)
+**Status:** ✅
 
 ### Test 3: Opportunity selection
 **Input:** Open the opportunities list and view details for Junior Frontend Developer.
@@ -232,13 +232,14 @@ A structured analysis with Relevant Skills, Potential Gaps, and Recommended Next
 
 **What didn't work as expected?**
 
-- The profile is kept only for the current session, so it may reset after a page refresh.
+- The profile was kept only for the current session at first, and reverted to the sample profile.
+- After sending the `localStorage` prompt to Lovable, the public link still behaved the same, because I had not published the update yet.
 - Skills must be separated with commas. When I typed `Automation Workflows ESP32` without a comma, the two could be read as a single skill.
 - Typing in the form is not enough: until **Save Profile** is clicked, the app keeps using the fictional sample profile.
 
 **How did I solve it?**
 
-- Treated session-only storage as an accepted MVP limitation, since `localStorage` was an optional enhancement; adding it is listed under future improvements.
+- Sent Lovable a focused prompt to add `localStorage` persistence for the profile only, then clicked Publish → Update so the public link used the new version. After that, the saved profile stayed after a refresh.
 - Corrected the skills field to use commas and saved again before re-running the analysis.
 - Checked the "Profile in use" panel after every save to confirm which profile the analysis would use.
 
@@ -247,7 +248,7 @@ A structured analysis with Relevant Skills, Potential Gaps, and Recommended Next
 ## 📚 What I Learned
 
 ### Technical Lesson
-Where the data lives matters: state held only in the app is lost on refresh, so persistence (for example `localStorage`) has to be an explicit decision.
+Where the data lives matters: state held only in the app is lost on refresh, so persistence (for example `localStorage`) has to be an explicit decision. Also, changes made in Lovable only reach the public link after publishing the update, so I test the published version, not just the preview.
 
 ### Problem-Solving Lesson
 Building an AI solution starts with understanding the problem and the user, not with writing a prompt.
@@ -261,7 +262,6 @@ A UI that shows a result is not proof of real AI analysis. I verified it by chan
 
 If I continued developing this project, I would:
 
-- Add browser persistence (`localStorage`) so the profile survives a page refresh.
 - Test and document the AI unavailable and error states.
 - Improve mobile responsiveness and visual polish.
 
