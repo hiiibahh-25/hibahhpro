@@ -35,13 +35,13 @@
 
 ### 01 — Guided Project
 
-**Project:** [Course Project Name]
+**Project:** AI Client Intake & Request Routing System
 
-مشروع عملي أطبّق فيه مفاهيم تحليل العمل وتصميم عملية أتمتة تعتمد على AI.
+A hands-on project where I apply business analysis concepts and design an AI-powered automation process.
 
-- **Problem:** [المشكلة التي يعالجها المشروع]
-- **Solution:** [وصف مختصر للحل]
-- **Tools:** [الأدوات المستخدمة]
+- **Problem:** A service company receives client requests that vary in clarity and completeness. Employees must read, organize, and validate each request by hand before deciding the next step, which is slow and can lead to delays and missed details.
+- **Solution:** A Zapier workflow that receives requests from Google Forms, uses AI to extract the service type, timeline, and budget, and applies clear rules to mark each request as `VALID` or `NEEDS_REVIEW`. Valid requests go to the web team, while incomplete or unclear ones go to human review. Every request is logged in Google Sheets and notified by email.
+- **Tools:** Google Forms, Zapier, AI by Zapier, Paths by Zapier, Google Sheets, Gmail
 
 [Explore the Project](./course-project/)
 
