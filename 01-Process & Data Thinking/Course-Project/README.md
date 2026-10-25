@@ -1,6 +1,6 @@
 #AI Client Intake & Request Routing System
 
-> [One-sentence description of what this project does.]
+> An intelligent system that receives client requests from a Google Forms submission, analyzes them with AI to extract the key information, and automatically routes each request to the right team.
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### The Context
 
-[What is the real-world situation?]
+[Companies receive many requests from new clients through different forms, and the information that comes in is often unstructured or incomplete.]
 
 ### The Problem
 
