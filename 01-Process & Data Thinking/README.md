@@ -93,7 +93,7 @@ A hands-on project where I apply business analysis concepts and design an AI-pow
 
 ## 🔗 Related Projects
 
-- [Guided Project](./course-project/)
+- [Guided Project] https://github.com/hiiibahh-25/hibahhpro/tree/main/01-Process%20%26%20Data%20Thinking/Course-Project
 - [Independent Project](./independent-project/)
 
 ---
