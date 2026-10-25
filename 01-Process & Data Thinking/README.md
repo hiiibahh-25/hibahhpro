@@ -47,15 +47,33 @@ A hands-on project where I apply business analysis concepts and design an AI-pow
 
 ### 02 — Independent Project
 
-**Project:** [Independent Project Name]
+## 💬 AI Feedback Responder
 
-مشروع مستقل أطبّق فيه ما تعلمته على مشكلة مختلفة، مع تصميم الحل وتنفيذه وتوثيق النتائج.
+### 📌 Project Overview
+**Project Name:** AI Feedback Responder  
+**Summary:** An independent project applying automated workflows and AI text analysis to tackle customer communication challenges, from solution design to execution and documentation.
 
-- **Problem:** [المشكلة التي يعالجها المشروع]
-- **Solution:** [وصف مختصر للحل]
-- **Tools:** [الأدوات المستخدمة]
+---
 
-[Explore the Project](./independent-project/)
+### 🎯 Problem Statement
+Companies receive customer feedback through online forms, ranging from simple thank-you messages to complex complaints. Manually reading, analyzing sentiment, summarizing, drafting replies, and routing each message is repetitive, time-consuming, and leads to delayed responses that leave customers feeling ignored.
+
+---
+
+### 💡 Solution
+An automated Zapier workflow that leverages AI to analyze feedback sentiment and intelligently route it. Strictly positive feedback receives an automated thank-you email, while complaints or unclear feedback are routed to staff with an AI-generated summary and draft reply. All feedback is systematically logged in Google Sheets.
+
+---
+
+### 🛠️ Tools & Technologies Used
+* **Google Forms:** Receiving customer feedback
+* **Zapier:** Building the automation workflow
+* **AI by Zapier:** Analyzing sentiment, summarizing, and drafting replies
+* **Paths by Zapier:** Routing feedback by sentiment
+* **Google Sheets:** Recording all feedback and results
+* **Gmail:** Sending automated emails to customers and review requests to staff
+
+[Explore the Project] https://github.com/hiiibahh-25/hibahhpro/tree/main/01-Process%20%26%20Data%20Thinking/Independent-Project
 
 ---
 
