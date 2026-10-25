@@ -176,16 +176,14 @@ After fixing the path condition (see Challenges), the Needs Review path ran, the
 ## 📸 Evidence
 
 ### Workflow
-![Workflow - Part 1](Screenshots/workflow-1.png)
-![Workflow - Part 2](Screenshots/workflow-2.png)
+![Workflow - Part 1](Screenshots/workflow.png)
 
 ### Positive Feedback path ran
-![Positive Feedback path - Part 1](Screenshots/positive-path-1.png)
-![Positive Feedback path - Part 2](Screenshots/positive-path-2.png)
+![Positive Feedback path - Part 1](Screenshots/positive-path.png)
 
 ### Needs Review path ran
-![Needs Review path - Part 1](Screenshots/needs-review-path-1.png)
-![Needs Review path - Part 2](Screenshots/needs-review-path-2.png)
+![Needs Review path - Part 1](Screenshots/needs-review-path.png)
+
 
 ---
 
