@@ -43,7 +43,7 @@ A hands-on project where I apply business analysis concepts and design an AI-pow
 - **Solution:** A Zapier workflow that receives requests from Google Forms, uses AI to extract the service type, timeline, and budget, and applies clear rules to mark each request as `VALID` or `NEEDS_REVIEW`. Valid requests go to the web team, while incomplete or unclear ones go to human review. Every request is logged in Google Sheets and notified by email.
 - **Tools:** Google Forms, Zapier, AI by Zapier, Paths by Zapier, Google Sheets, Gmail
 
-[Explore the Project](./course-project/)
+[Explore the Project] https://github.com/hiiibahh-25/hibahhpro/tree/main/01-Process%20%26%20Data%20Thinking/Course-Project
 
 ### 02 — Independent Project
 
