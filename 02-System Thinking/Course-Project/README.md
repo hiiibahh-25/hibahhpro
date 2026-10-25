@@ -271,9 +271,6 @@ If I continued developing this project, I would:
 
 **Live Demo:** [https://screenshot-faithful-layout-lab.lovable.app](https://screenshot-faithful-layout-lab.lovable.app)
 
-**Workflow:** [Link]
-
-**Repository:** [Link]
 
 ---
 
