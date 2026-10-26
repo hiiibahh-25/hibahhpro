@@ -192,25 +192,28 @@ AI was used as a **build tool**, not as a feature inside the app.
 ## 📸 Evidence
 
 ### Landing Page
-![Landing Page](screenshots/landing.png)
+![Landing Page](Screenshots/landing.png)
 
 ### Sign Up
-![Sign Up](screenshots/signup.png)
+![Sign Up](Screenshots/signup.png)
 
 ### Email Confirmation
-![Email Confirmation](screenshots/email-confirmation.png)
+![Email Confirmation](Screenshots/email-confirmation.png)
 
 ### Create Plan
-![Create Plan](screenshots/create-plan.png)
+![Create Plan](Screenshots/create-plan.png)
 
 ### My Plans
-![My Plans](screenshots/my-plans.png)
+![My Plans](Screenshots/my-plans.png)
 
 ### Plan Details
-![Plan Details](screenshots/plan-details.png)
+![Plan Details](Screenshots/plan-details.png)
+
+### Adding Tasks
+![Adding Tasks](Screenshots/tasks.png)
 
 ### Data Isolation (second account)
-![Empty state for second account](screenshots/isolation-empty-state.png)
+![Empty state for second account](Screenshots/isolation-empty-state.png)
 
 ## ⚠️ Challenges & Failures
 
