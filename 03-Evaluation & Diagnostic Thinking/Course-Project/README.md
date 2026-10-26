@@ -200,9 +200,6 @@ AI was used as a **build tool**, not as a feature inside the app.
 ### Email Confirmation
 ![Email Confirmation](Screenshots/email-confirmation.png)
 
-### Create Plan
-![Create Plan](Screenshots/create-plan.png)
-
 ### My Plans
 ![My Plans](Screenshots/my-plans.png)
 
